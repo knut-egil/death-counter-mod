@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.knutegil.death_counter.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+	],
+    "mixins": [
+      "ClientPlayNetworkHandlerMixin"
+    ],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

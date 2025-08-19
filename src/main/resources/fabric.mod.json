@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "death-counter",
+	"version": "${version}",
+	"name": "Death Counter",
+	"description": "Broadcasts your current death count to your local network over UDP.",
+	"authors": [
+		"knutegil_dev"
+	],
+	"contact": {
+      "homepage": "https://knutegil.dev/",
+      "issues": "https://github.com/knut-egil/death-counter-mod/issues",
+      "sources": "https://github.com/knut-egil/death-counter-mod"
+    },
+	"license": "CC0-1.0",
+	"icon": "assets/death-counter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.knutegil.death_counter.DeathCounter"
+		],
+		"client": [
+			"dev.knutegil.death_counter.DeathCounterClient"
+		]
+	},
+	"mixins": [
+		"death-counter.mixins.json",
+		{
+			"config": "death-counter.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
