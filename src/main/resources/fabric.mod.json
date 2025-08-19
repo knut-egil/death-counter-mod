@@ -5,9 +5,16 @@
 	"name": "Death Counter",
 	"description": "Broadcasts your current death count to your local network over UDP.",
 	"authors": [
-		"knutegil_dev"
+      {
+        "name": "Knut Egil V. Nygård",
+        "contact": {
+          "email": "hello@knutegil.dev",
+          "homepage": "https://knutegil.dev/"
+        }
+      }
 	],
 	"contact": {
+      "email": "support@knutegil.dev",
       "homepage": "https://knutegil.dev/",
       "issues": "https://github.com/knut-egil/death-counter-mod/issues",
       "sources": "https://github.com/knut-egil/death-counter-mod"
