@@ -1,4 +1,4 @@
-A Minecraft Fabric mod that broadcasts your in-game death count (on a per-server basis) over your network using UDP.
+A Minecraft Fabric mod that broadcasts your in-game death count (on a per-server basis) over your local network using UDP.
 
 You might ask "Why would you want to do that?" which is a totally valid question... Well... You see, I designed a real-life physical Minecraft death counter! There was only one problem, the counter had no way of knowing how many times I have died, and I am way too lazy to manually increment it!
 
